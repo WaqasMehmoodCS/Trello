@@ -1,0 +1,24 @@
+.team{
+    width: 25%;
+    /* border: 2px solid black; */
+    margin: 15px 5px;
+    overflow: auto;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 5px 5px gray 0.7;
+    background-color: rgb(202, 205, 207);
+    box-shadow:  2px 2px  rgb(85, 84, 84);
+}
+.name{
+    font-size: larger;
+    font-weight: 700;
+}
+.cardContainer{
+    /* border: 2px solid black; */
+    margin-top: 5px;
+}
+@media screen and (max-width:470px) {
+    .team{
+        width: 90%;
+    }
+}

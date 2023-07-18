@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainScreen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(28, 104, 247);
+  overflow: auto;
+}
+
+@media screen and (max-width: 470px) {
+  .mainScreen {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+}
